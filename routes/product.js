@@ -12,7 +12,7 @@ const { create,
     removeImage
 } = require('../controllers/product')
 const { authCheck, adminCheck } = require('../middlewares/authCheck')
-// @ENDPOINT https://vercel.com/tees-projects-fc7a73b8/ecom2025-api/api/product
+// @ENDPOINT https://ecom2025-api-ir9d.vercel.app/api/product
 router.post('/product', create)
 router.get('/products/:count', list)
 router.get('/product/:id', read)
